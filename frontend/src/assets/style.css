@@ -1,1 +1,66 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@font-face {
+    font-family: Fshahdadthin;
+    src: url(./font/FShahdad-1-Thin.ttf);
+}
+
+@font-face {
+    font-family: FshahdadExtraLight;
+    src: url(./font/FShahdad-2-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: FshahdadLight;
+    src: url(./font/FShahdad-3-Light.ttf);
+}
+
+@font-face {
+    font-family: FshahdadRegular;
+    src: url(./font/FShahdad-4-Regular.ttf);
+}
+
+@font-face {
+    font-family: FshahdadMedium;
+    src: url(./font/FShahdad-5-Medium.ttf);
+}
+
+@font-face {
+    font-family: FshahdadDisplay;
+    src: url(./font/FShahdadDisplay-6-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: FshahdadDisplayBold;
+        src: url(./font/FShahdadDisplay-7-Bold.ttf);
+}
+
+@font-face {
+    font-family: FshahdadDisplayExtraBold;
+        src: url(./font/FShahdadDisplay-8-ExtraBold.ttf);
+}
+
+ @theme {
+    --color-huger-main: #337d6e;
+    --color-huger-main-100: hsl(168, 42%, 40%);
+    --color-huger-text: #e9f3e9;
+    --color-huger-shadow: #1f4349;
+    --color-huger-highlight: #57b2a1;
+
+    --font-fshahdad-thin: "Fshahdadthin", sans-serif;
+    --font-fshahdad-extralight: "FshahdadExtraLight", sans-serif;
+    --font-fshahdad-light: "FshahdadLight", sans-serif;
+    --font-fshahdad-regular: "FshahdadRegular", sans-serif;
+    --font-fshahdad-medium: "FshahdadMedium", sans-serif;
+    --font-fshahdad-display: "FshahdadDisplay", sans-serif;
+    --font-fshahdad-display-bold: "FshahdadDisplayBold", sans-serif;
+    --font-fshahdad-display-extrabold: "FshahdadDisplayExtraBold", sans-serif;
+}
+
+.headrbutton {
+    box-shadow: var(--color-huger-shadow) 10 10 10 10;
+}
+
+body {
+    background: var(--color-huger-main);
+}
