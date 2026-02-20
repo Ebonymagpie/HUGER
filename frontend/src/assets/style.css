@@ -61,6 +61,14 @@
     box-shadow: var(--color-huger-shadow) 10 10 10 10;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background: var(--color-huger-main);
+}
+
+.footer {
+    box-shadow: 0px 0px 50px 1px;
 }
