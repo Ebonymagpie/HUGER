@@ -1,7 +1,7 @@
 function Footer() {
     return ( 
     <>
-        <footer className="w-screen min-h-12 flex flex-row footer font-fshahdad-display-bold text-right md:text-xl mt-2">
+        <footer className="w-screen min-h-12 flex flex-row footer font-fshahdad-display-bold text-right md:text-xl mt-2 mb-0">
             <div className="w-1/3 bg-huger-main-100 h-auto pr-3 ">
             <p>
                 راه‌های ارتباطی به ما 

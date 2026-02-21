@@ -1,7 +1,7 @@
-function Section({children},id) {
+function Section({children},id, className) {
     return ( 
         <>
-            <section id={id} className="w-full">
+            <section id={id} className={`w-full` + className}>
                 {children}
             </section>
         </>
