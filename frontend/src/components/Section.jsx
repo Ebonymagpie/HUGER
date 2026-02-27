@@ -1,7 +1,7 @@
-function Section({children},id, className) {
+function Section({children}) {
     return ( 
         <>
-            <section id={id} className={`w-full` + className}>
+            <section className="flex items-center">
                 {children}
             </section>
         </>

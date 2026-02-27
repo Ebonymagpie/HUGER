@@ -13,7 +13,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path='/home' element={<Home />} />
         <Route path='/group' element={<Groups />} />
-        <Route path='/project' element={<Project />} />
+        <Route path='/project/:id' element={<Project />} />
         <Route path='*' element={<NoPage />} />
       </Routes>
     </BrowserRouter>
